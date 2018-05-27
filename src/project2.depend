@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1524880000 source:c:\users\bmyri\onedrive\cs 142\project 2\project2\registration.cpp
+	"Registration.h"
+
+1524802081 c:\users\bmyri\onedrive\cs 142\project 2\project2\registration.h
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+	"RegistrationList.h"
+
+1524882386 c:\users\bmyri\onedrive\cs 142\project 2\project2\registrationlist.h
+	<iostream>
+	<map>
+	<string>
+	<vector>
+	"RegistrationEntry.h"
+
+1524804915 c:\users\bmyri\onedrive\cs 142\project 2\project2\registrationentry.h
+	<fstream>
+	<string>
+
+1524878625 source:c:\users\bmyri\onedrive\cs 142\project 2\project2\registrationlist.cpp
+	"RegistrationList.h"
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+
+1524526951 source:c:\users\bmyri\onedrive\cs 142\project 2\project2\test.cpp
+	"Registration.h"
+

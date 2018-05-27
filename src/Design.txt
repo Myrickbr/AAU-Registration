@@ -1,0 +1,62 @@
+
+Design Doc
+
+Registration
+Run()
+
+Reads in a file name
+Calls display function
+And runs a while loop that will cin commands from the user to perform actions to add, delete or edit players
+
+Display_entry_and_menu()
+Creates a display for the program to see what is in the program
+Displays the list of commands
+
+Execute()
+Takes in the character for the command and the book that controls the while loop in the run function.
+Uses switches to choose a command to execute
+
+RegistrationList
+
+RegistrationList()
+Constructor that sets the iterator to the end
+
+Add()
+Adds a player to the map using their name as the key
+
+Display_current_entry()
+Uses a for loop to uses an iterator to display all of the current entries in the map
+
+Move_to_next()
+Moves the iterator to over to be on a specific entry if the user wants to edit it
+
+Edit_current()
+Uses the iterator in the iterator map to access the map with the entry in the same spot
+
+Find()
+Uses an iterator to find an entry in the map using the name which is the key to the map with the information of each player
+
+Read_file()
+Reads in a file using the fstream.
+Reads in the info from previous runs of the program and stores them into the map that holds the information
+And sets the iterator to the beginning of the map
+
+Write_file()
+ Writes to file indicated in program (Registration.txt)
+
+Display_statistics()
+Displays statistics by category/totals, traversing through map and storing stats in vector.
+
+RegistrationEntry
+
+RegistrationEntry()
+Default constructor setting name and number to a string saying no info
+
+RegistrationEntry()
+Constructor used to get basic info into the object
+
+RegistrationEntry()
+Constructor used to add player by incuding more information being passed
+
+Operator >> 
+Overloaded to enter the name and number for the map info for the object

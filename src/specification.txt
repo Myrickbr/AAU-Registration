@@ -1,0 +1,52 @@
+Project 2
+
+SPECIFICATION
+  
+OVERVIEW
+
+A Program to manage registrations for a local youth soccer association.
+The program allows users to add and delete players, edit a player's 
+information, print lists of players, and search for players using a 
+variety of criteria.
+
+
+DETAILS
+
+The program has two views. First, the browsing view allows the user to
+browse through a list of all players. On the other hand, the search results
+view allows the user to browse through players produced by a search. In
+both views, players are shown one line at a time in alphabetical order
+(by last name then first name). Two commands "next" and "previous" allows
+the user to view other players.
+
+The program always displays the rank of the player and the total number of
+players in the current view. For example, when viewing the 10th player after
+a search that returns 15 players, the program will display "10 out of 15".
+
+Also, for each player the program records the player's name, year of birth,
+category, and registration status. The possible categories are U6, U8, U10, 
+U12, U14 and U17. The registration status is either "paid" or "not paid".
+
+SAMPLE INTERFACE(BROWSE VIEW)  
+
+1.John Anderson  U10  paid
+2.Mark Hamiltion U8   paid
+
+--------------------------------------------------
+  next  previous  start_new_season  add_player  Stop 
+  edit_info  delete_player  print_list  Stats  Search   
+    
+-------
+command: 
+
+
+SAMPLE INTERFACE(SEARCH RESULTS VIEW)  
+
+1.John Smith  U10  paid
+--------------------------------------------------
+  next  previous  exit_searchmode  add_player  Stop 
+  edit_info  delete_player  print_list  Stats  Search
+-------
+command: e
+
+
